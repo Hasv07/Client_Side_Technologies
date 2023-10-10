@@ -1,0 +1,58 @@
+* :not(ul,li,ol,p){
+    padding:0;
+    margin: 0;
+    box-sizing:content-box;
+}
+body{
+   height: 120vh;
+   
+}
+/* page 1 css */
+#Page1{
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/* page2 css */
+#Page2{
+    height: 100%;
+    
+    background-color: wheat;
+    
+    & #Header{
+       text-align: center;
+       & h1,h3,h4{
+        margin-bottom: 0.7em;
+       }
+        
+    }
+    & #Content{
+      margin: 0.7em;
+        
+    
+    }
+    & #Format{
+        height: 70%;
+    
+        margin-left: 0.7em;
+        
+        & .welcome_container{
+            text-align:center;
+        }
+    }
+    & #Footer{
+        background-color: yellowgreen;
+        display: flex;
+        justify-content: space-between;
+        
+        & img{
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+
+}
