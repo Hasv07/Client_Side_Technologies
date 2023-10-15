@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Login</title>
+    <!-- google fonts -->
+
+
+    <!-- css link -->
+    <link href="CSS/bootstrap.min.css" rel="stylesheet " />
+    <link href="CSS/all.min.css" rel="stylesheet" />
+    <link href="CSS/style.css" rel="stylesheet" />
+    
+  </head>
+    <main id="Login" class="bg-black vh-100 text-white">
+        <nav class="position-fixed top-0 d-flex justify-content-between p-3 w-100 ">
+            <a href="index.html" class="display-6 text-white text-decoration-none">
+              <i class="fa-solid fa-backward"></i>
+              Start
+            </a>
+            <a href="register.html" class=" display-6 text-white text-decoration-none">Register
+              <i class="fas fa-sign-in "></i>
+            </a>
+          </nav>
+        <section id="Header" class="text-center mb-5">
+          <i class="fa-solid fa-dragon display-1 mt-4 "></i>
+          <p class="display-1 mt-4">Login</p>
+
+        </section>
+        <section id="Content" class="mt-5 ">
+          <form action="home.html" method="get">
+          <div class="table_container w-25 m-auto p-5">
+
+          <table class=" table-light custom_table text-white  w-25 m-auto">
+            <tbody >
+
+              <tr>
+                <th scope="row">
+                  <label for="uname">UserName</label>
+                </th>
+                <td class>
+                  <input type="text" id="uname" name="UserName">
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">
+                  <label for="pass">Password</label>
+                </th>
+                <td class>
+                  <input type="password" id="pass" name="Password" >
+                </td>
+              </tr>
+              
+             
+              <tr>
+              <th scope="row" colspan="2" class="text-center">
+                <input type="checkbox" name="remember" value="true" > Remember Me
+            </th>
+            </tr>
+
+              
+            </tbody>
+          </table>
+          </div>
+          <div class="text-center p-5">
+            <button type="submit" class="btn btn-outline-light w-25">Login</button>
+          </div>
+
+
+          </form>
+
+        
+        </section>
+      
+
+    </main>
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>

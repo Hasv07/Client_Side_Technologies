@@ -1,0 +1,266 @@
+/** z is blank space */
+@-moz-keyframes falling-box {
+    0% {
+      -webkit-transform: scale(0, 0);
+    }
+    1% {
+      -webkit-transform: scale(1.16, 1.16);
+    }
+    2% {
+      -webkit-transform: scale(1, 1);
+    }
+    69% {
+      -webkit-transform: scale(1, 1);
+    }
+    70% {
+      -webkit-transform: scale(1.16, 1.16);
+    }
+    71% {
+      -webkit-transform: scale(0, 0);
+    }
+  }
+  @-webkit-keyframes falling-box {
+    0% {
+      -webkit-transform: scale(0, 0);
+    }
+    1% {
+      -webkit-transform: scale(1.16, 1.16);
+    }
+    2% {
+      -webkit-transform: scale(1, 1);
+    }
+    69% {
+      -webkit-transform: scale(1, 1);
+    }
+    70% {
+      -webkit-transform: scale(1.16, 1.16);
+    }
+    71% {
+      -webkit-transform: scale(0, 0);
+    }
+  }
+  @keyframes falling-box {
+    0% {
+      -webkit-transform: scale(0, 0);
+    }
+    1% {
+      -webkit-transform: scale(1.16, 1.16);
+    }
+    2% {
+      -webkit-transform: scale(1, 1);
+    }
+    69% {
+      -webkit-transform: scale(1, 1);
+    }
+    70% {
+      -webkit-transform: scale(1.16, 1.16);
+    }
+    71% {
+      -webkit-transform: scale(0, 0);
+    }
+  }
+  html,
+  body {
+    background: black;
+    padding: 0;
+    margin: 0;
+  }
+  div#container {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 17.6vw;
+    height: 13.2vw;
+  }
+  div#tcs-logo-animated {
+    position: relative;
+    padding: 0;
+    margin: 0;
+  }
+  div#tcs-logo-animated > :nth-child(1) {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+  }
+  div#tcs-logo-animated > :nth-child(8) {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+  }
+  div#tcs-logo-animated > :nth-child(3) {
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+  }
+  div#tcs-logo-animated > :nth-child(5) {
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+  }
+  div#tcs-logo-animated > :nth-child(7) {
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+  }
+  div#tcs-logo-animated > :nth-child(2) {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+  }
+  div#tcs-logo-animated > :nth-child(4) {
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+  }
+  div#tcs-logo-animated > :nth-child(6) {
+    -webkit-animation-delay: 1.4s;
+    animation-delay: 1.4s;
+  }
+  div#tcs-logo-animated > .square {
+    width: 3vw;
+    height: 3vw;
+    border: 0.6vw solid white;
+    border-radius: 1vw;
+  }
+  div#tcs-logo-animated > .square.blue {
+    border-color: gray;
+  }
+  div#tcs-logo-animated > .square.white {
+    border-color: #FFFFFF;
+  }
+  div#tcs-logo-animated > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  div#tcs-logo-animated > div#w3 {
+    left: 17.6vw;
+    top: 0vw;
+    -webkit-animation-name: falling-box;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transform: scale(0, 0);
+  }
+  div#tcs-logo-animated > div#z {
+    left: 13.2vw;
+    top: 0vw;
+    -webkit-animation-name: falling-box;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transform: scale(0, 0);
+  }
+  div#tcs-logo-animated > div#b2 {
+    left: 8.8vw;
+    top: 0vw;
+    -webkit-animation-name: falling-box;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transform: scale(0, 0);
+  }
+  div#tcs-logo-animated > div#z {
+    left: 4.4vw;
+    top: 0vw;
+    -webkit-animation-name: falling-box;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transform: scale(0, 0);
+  }
+  div#tcs-logo-animated > div#z {
+    left: 0vw;
+    top: 0vw;
+    -webkit-animation-name: falling-box;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transform: scale(0, 0);
+  }
+  div#tcs-logo-animated > div#b6 {
+    left: 17.6vw;
+    top: 4.4vw;
+    -webkit-animation-name: falling-box;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transform: scale(0, 0);
+  }
+  div#tcs-logo-animated > div#z {
+    left: 13.2vw;
+    top: 4.4vw;
+    -webkit-animation-name: falling-box;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transform: scale(0, 0);
+  }
+  div#tcs-logo-animated > div#w2 {
+    left: 8.8vw;
+    top: 4.4vw;
+    -webkit-animation-name: falling-box;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transform: scale(0, 0);
+  }
+  div#tcs-logo-animated > div#b3 {
+    left: 4.4vw;
+    top: 4.4vw;
+    -webkit-animation-name: falling-box;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transform: scale(0, 0);
+  }
+  div#tcs-logo-animated > div#w1 {
+    left: 0vw;
+    top: 4.4vw;
+    -webkit-animation-name: falling-box;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transform: scale(0, 0);
+  }
+  div#tcs-logo-animated > div#b7 {
+    left: 17.6vw;
+    top: 8.8vw;
+    -webkit-animation-name: falling-box;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transform: scale(0, 0);
+  }
+  div#tcs-logo-animated > div#z {
+    left: 13.2vw;
+    top: 8.8vw;
+    -webkit-animation-name: falling-box;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transform: scale(0, 0);
+  }
+  div#tcs-logo-animated > div#b5 {
+    left: 8.8vw;
+    top: 8.8vw;
+    -webkit-animation-name: falling-box;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transform: scale(0, 0);
+  }
+  div#tcs-logo-animated > div#z {
+    left: 4.4vw;
+    top: 8.8vw;
+    -webkit-animation-name: falling-box;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transform: scale(0, 0);
+  }
+  div#tcs-logo-animated > div#b4 {
+    left: 0vw;
+    top: 8.8vw;
+    -webkit-animation-name: falling-box;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transform: scale(0, 0);
+  }

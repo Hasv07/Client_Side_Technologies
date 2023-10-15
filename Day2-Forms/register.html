@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+
+    <title>HI</title>
+    <!-- google fonts -->
+
+
+    <!-- css link -->
+    <link href="CSS/bootstrap.min.css" rel="stylesheet " />
+    <link href="CSS/all.min.css" rel="stylesheet" />
+    <link href="CSS/style.css" rel="stylesheet" />
+    
+  </head>
+    <main id="Register" class="bg-black vh-100 text-white">
+
+    
+      
+        <nav class="position-fixed top-0 d-flex justify-content-between p-3 w-100 ">
+          <a href="index.html" class="display-6 text-white text-decoration-none">
+            <i class="fa-solid fa-backward"></i>
+            Start
+          </a>
+          <a href="login.html" class=" display-6 text-white text-decoration-none">Login
+            <i class="fas fa-sign-in "></i>
+          </a>
+        </nav>
+        <section id="Header" class="text-center mb-5">
+          <i class="fa-solid fa-dragon display-1 mt-4 "></i>
+          <p class="display-1 mt-4">Registeration Form</p>
+
+        </section>
+        <section id="Content" class="mt-5">
+          <form action="https://formspree.io/f/mrgwrbnq" method="post">
+            <div class="table_container m-auto p-5">
+              <table class=" table-light text-white m-auto custom_table" >
+                <tbody>
+    
+                  <tr>
+                    <th scope="row">
+                      <label for="fname"> First Name</label>
+                    </th>
+                    <td class>
+                      <input type="text" id="uname" >
+                    </td>
+                  </tr>
+                  <tr >
+                    <th scope="row">
+                      <label for="lname"> Last Name</label>
+                    </th>
+                    <td class>
+                      <input type="text" id="lname" >
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                        <label for="email">E-Mail</label>
+                    </th>
+                    <td>
+                      <input type="email" name="email" id="email">
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                        <label for="pass">Password</label>
+                    </th>
+                    <td>
+                      <input type="password" name="password" id="pass">
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                        Gender
+                    </th>
+                    <td class="d-flex justify-content-evenly pe-5">
+                      <div>
+                        <input type="radio" name="gender" id="male">
+                        <label for="male">Male</label>
+                      </div>
+                      <div>
+                        <input type="radio" name="gender" id="female">
+                        <label for="female">Female</label>
+                      </div>
+                  
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                        Country
+                    </th>
+                    <td >
+                      <select name="country">
+                        <option value="0">Select Country</option>
+                        <optgroup label="Africa">
+                            <option value="1">Egypt</option>
+                            <option value="2">Nigeria</option>
+                        </optgroup>
+                        <optgroup label="Asia">
+                            <option value="3">China</option>
+                            <option value="4">India</option>
+                        </optgroup>
+                        <optgroup label="Europe">
+                            <option value="5">France</option>
+                            <option value="6">Germany</option>
+                        </optgroup>
+                        <optgroup label="North America">
+                            <option value="7">United States</option>
+                            <option value="8">Canada</option>
+                        </optgroup>
+                        <optgroup label="South America">
+                            <option value="9">Brazil</option>
+                            <option value="10">Argentina</option>
+                        </optgroup>
+                    </select>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      Birthday
+                  </th>
+                    <td>
+                  
+                      <select name="month">
+                          <option value="1">January</option>
+                          <option value="2">February</option>
+                          <option value="3">March</option>
+                      </select>
+                      <select name="day">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    <select name="year">
+                      <option value="1">2000</option>
+                      <option value="2">2001</option>
+                      <option value="3">2002</option>
+                  </select>
+                  </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" >
+                      Interests
+                  </th>
+                    <td>
+                      <input type="checkbox"  name="interests" value="sports" id="cb1">
+                      <label for="cb1" >
+                        Sports
+                      </label>
+                      <br>
+                      <input type="checkbox" name="interests" value="music" id="cb2"> 
+                      <label for="cb2" >
+                        Music
+                      </label>
+                      <br>
+                      <input type="checkbox" name="interests" value="books" id="cb3">
+                      <label for="cb3" >
+                        Reading Books
+                      </label>
+                      <br>
+                  </td>
+                  </tr>
+                
+                  
+                </tbody>
+              </table>
+            </div>
+        
+          <div class="text-center p-5">
+            <button type="submit" class="btn btn-outline-light w-25">Submit</button>
+
+          </div>
+          </form>
+        </section>
+    </main>
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>

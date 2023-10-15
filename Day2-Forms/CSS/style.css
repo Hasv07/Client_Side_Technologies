@@ -1,0 +1,10 @@
+.table_container{
+    border: 2px solid white; /* Adjust the color and width as per your requirement */
+    border-radius: 10%;
+    width: 40%;
+}
+.custom_table{
+    border-collapse: separate;
+    border-spacing: 1.2em;
+
+}
